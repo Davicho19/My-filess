@@ -1,0 +1,30 @@
+<header>Simulador de Negocios </header>
+
+<div class="formulario" *ngIf="!(authService.user | async)">
+  <div *ngIf="!(authService.user | async)">
+      <label for="email">Email</label>
+      <input  type="text" [(ngModel)]="email" placeholder="email" required/>
+      <label for="password">Password</label>
+      <input type="password" [(ngModel)]="password" placeholder="password" required/>
+
+      <button type="button" class="btn btn-block" (click)="signInWithGoogle()">
+          <i class="fa fa-google" aria-hidden="true"></i>
+          Login with Google
+        </button>
+      <button type="submit"  (click)="login()" [disabled]="!email || !password">
+          Login
+      </button>
+
+
+    </div>
+</div>
+
+<div class="formulario" *ngIf="authService.user | async">
+  <h1 *ngIf="authService.user | async">Welcome {{ (authService.user | async)?.email }}!</h1>
+  <button (click)="tabla()" *ngIf="authService.user | async" auto>
+    Go to 'tabla de decisiones'
+</button>
+  <button (click)="logout()" *ngIf="authService.user | async" auto>
+      Logout
+  </button>
+</div>

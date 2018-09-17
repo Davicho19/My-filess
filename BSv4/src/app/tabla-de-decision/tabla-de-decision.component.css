@@ -1,0 +1,176 @@
+aside {
+    position: fixed;
+    left: 0;
+    top: 0%;
+    height: 100%;
+    width: 25%;
+    color: white;
+    text-align: center;
+    background-color: rgb(24, 76, 133);
+}
+.div-aside{
+    position: relative;
+    top: 0%;
+    width: 100%;
+    background-color:rgb(113,110,111);
+}
+img{
+    position: sticky;
+    border-radius: 50%;
+    margin: 7%;
+    width: 50%;
+}
+header{
+    width: 100%;
+    margin-top:-2%;
+    padding: 1rem;
+    background-color: rgb(24, 76, 133);
+    color: white;
+    text-align: center;
+    font-family: "arial";
+}
+.div-header{
+    position: absolute;
+    width: 5%;
+    margin-left: 25%;
+    color: white;
+    text-align: center;
+    top: 5%;
+    padding: 2rem;
+    border-radius: 10%;
+    background-color:  rgb(24, 76, 133);
+    padding: 20px;
+}
+.tabla-decision{
+    width: 40%;
+    height: 26em;
+    margin-left: 25%;
+    margin-top: 2%;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: "arial";
+    background-color: rgb(24, 76, 133);
+    padding: 20px;
+    float:left;
+}
+
+.tabla-proyecciones{
+    width: 25%;
+    height: 26em;
+    margin-top: 2%;
+    margin-left: 1%;
+    padding: 2rem;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: "arial";
+    background-color: rgb(24, 76, 133);
+    padding: 20px;
+    float:left;
+}
+.proyecciones{
+    color: black;
+    text-align: left;
+    background-color: white;
+    width: 100%;
+}
+.tabla-analisis{
+    width: 70%;
+    height: 26em;
+    margin-left: 25%;
+    margin-top: 2%;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    font-family: "arial";
+    background-color: rgb(24, 76, 133);
+    padding: 20px;
+    float:left;
+}
+
+
+p{
+    color:  rgb(116, 197, 233);
+}
+table {
+    width:100%;
+    color: black;
+
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+.th1{
+    width:20%;
+    border: 1px solid  white;
+
+}
+.th2{
+    width: 200%;
+
+}
+.tr1{
+    width: 45%;
+    border: 1px solid  white;
+
+}
+
+table#t01 tr:nth-child(even) {
+    background-color: #fff;
+
+}
+table#t01 tr:nth-child(odd) {
+   background-color: rgb(116, 197, 233);
+
+}
+table#t01 th {
+    background-color: rgb(24, 76, 133);
+    color: white;
+}
+
+.boton1{
+    width: 30%;
+    margin-left: 40%;
+}
+.boton-decision{
+    background-color: rgb(24, 76, 208);
+}
+.boton-t-analisis{
+    background-color: rgb(0, 139, 208);
+    
+}
+.boton-informe{
+    background-color: rgb(0, 197, 245);
+    
+}
+.boton-analisis{
+    background-color: rgb(0, 168, 233);
+}
+
+
+
+.boton-prod-ventas, .boton-costo-precio,.boton-capacidad-produccion, .boton-compania-competencia, .boton-consejos{
+  background-color:rgb(0, 168, 233);
+  width: auto;
+  border: 1px black solid;
+  border-radius: 12px;
+}
+
+.boton-estado-resultados, .boton-balance-general, .boton-ventas, .boton-produccion, .boton-compania{
+  background-color:rgb(0, 197, 245);
+  width: auto;
+  border: 1px black solid;
+  border-radius: 12px;
+}
+.boton-vision-general, .boton-produccion-tabla-analisis, .boton-ventas-tabla-analisis, .boton-economia, .boton-porcentaje-mercado{
+  background-color:rgb(0, 139, 208);
+  width: auto;
+  border: 1px black solid;
+  border-radius: 12px;
+}
+
+
